@@ -1,11 +1,42 @@
-# Idle Blox Hero — Status
+# Idle Blox Hero — Current Status
 
-Stage: AI Environment Setup
+## Project
+Idle Blox Hero
 
-Game Implementation: Not Started
+## Development Stage
+AI Control Plane
 
-Current Goal:
-Prepare the multi-agent development environment.
+## Game Implementation
+NOT STARTED
 
-Next:
-Initialize AI operating rules.
+## Master Plan
+APPROVED
+
+## Architecture Gate
+001 — APPROVED
+
+## Current Objective
+Prepare the multi-agent repository workflow.
+
+## Current AI
+NONE
+
+## Active Task
+AI Control Plane
+
+## Next Game Task
+IBH-001 — Roblox Project Foundation
+
+## Verification
+
+Implemented:
+NO
+
+Tested:
+NO
+
+Studio Verified:
+NO
+
+Release Ready:
+NO
