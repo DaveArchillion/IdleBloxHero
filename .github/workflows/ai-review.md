@@ -1,6 +1,7 @@
 ---
 name: Idle Blox Hero AI Review
 description: Review pull requests for correctness, architecture, security, and tests
+
 on:
   pull_request:
     types: [opened, synchronize, reopened]
