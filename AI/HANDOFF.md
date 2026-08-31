@@ -2,11 +2,11 @@
 
 ## Current Task
 
-IBH-001 — Roblox Project Foundation
+NONE
 
 ## Current Status
 
-IMPLEMENTATION COMPLETE — PENDING ROBLOX STUDIO VERIFICATION
+IBH-001 — Roblox Project Foundation — DONE
 
 ## Last Agent
 
@@ -32,15 +32,18 @@ Codex
 
 ## Studio Verification
 
-NOT PERFORMED. No Roblox Studio session was available during this work.
+PASS.
+
+Verified in Roblox Studio with Rojo connected:
+
+- `Idle Blox Hero server bootstrap started`
+- `Idle Blox Hero client bootstrap started`
+- No startup errors were observed.
 
 ## Known Issues
 
-- The server and client bootstrap runtime messages have not yet been observed in
-  Roblox Studio.
+None for IBH-001.
 
 ## Next Action
 
-Connect `default.project.json` through Rojo in Roblox Studio, start a server and
-client session, and verify both bootstrap messages appear without startup errors.
-After recording that result, unblock and begin IBH-002.
+IBH-001 is unblocked and complete. Begin IBH-002 — Shared Data Foundation.
