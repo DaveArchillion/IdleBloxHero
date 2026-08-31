@@ -2,40 +2,39 @@
 
 ## Active Task
 
-IBH-001 — Roblox Project Foundation
+NONE
 
 ## Active Agent
 
-Codex
+NONE
 
 ## Status
 
-IMPLEMENTATION COMPLETE — PENDING ROBLOX STUDIO VERIFICATION
+IDLE
 
-## Started
+## Current Milestone
 
-2026-08-31
+IBH-001 — Roblox Project Foundation — DONE
 
 ## Objective
 
-Create the minimum Rojo project foundation with separate Shared, Server, and
-Client responsibilities.
+No implementation task is currently active.
 
 ## Completed
 
-- Created the Rojo project configuration and mapped Shared, Server, and Client
-  source roots.
-- Added a shared bootstrap module plus independent server and client bootstraps.
+- Repository initialized.
+- AI Control Plane initialized.
+- Master architecture plan approved.
+- Created the minimum Rojo project foundation with separate Shared, Server, and Client responsibilities.
 - Validated the Rojo build, generated project tree, and Luau source syntax.
-
-## Pending
-
-- Connect the project in Roblox Studio and verify both bootstrap messages with
-  no startup errors.
+- Verified the project in Roblox Studio with Rojo connected.
+- Verified the server bootstrap message.
+- Verified the client bootstrap message.
+- No startup errors were observed during verification.
 
 ## Next Task
 
-IBH-002 — Shared Data Foundation, after IBH-001 Studio verification is recorded.
+IBH-002 — Shared Data Foundation
 
 ## Takeover Rules
 
