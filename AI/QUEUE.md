@@ -30,7 +30,7 @@ REJECTED
 ### IBH-001
 Title: Roblox Project Foundation
 
-Status: READY
+Status: DONE
 Priority: P0
 Owner: None
 
@@ -46,17 +46,24 @@ Pass Gate:
 - project syncs to Roblox Studio
 - server starts without runtime errors
 
+Verification:
+- Rojo build passed.
+- Roblox Studio sync passed.
+- Server bootstrap started successfully.
+- Client bootstrap started successfully.
+- No startup errors observed.
+
 ---
 
 ### IBH-002
 Title: Shared Data Foundation
 
-Status: BLOCKED
+Status: READY
 Priority: P0
 Owner: None
 
 Depends On:
-- IBH-001
+- IBH-001 — DONE
 
 Goal:
 Create the first data-driven definitions and registry foundation.
