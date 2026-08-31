@@ -1,32 +1,38 @@
 # Current Active Task
 
 ## Task
-Build the Idle Blox Hero AI Control Plane.
+IBH-002 — Shared Data Foundation
 
 ## Status
-IN PROGRESS
+READY
 
 ## Goal
-
-Create a repository-based system that allows multiple AI agents
-to continue the same development task without depending on a single
-chat session.
+Create the first data-driven definitions and registry foundation for Idle Blox Hero.
 
 ## Requirements
 
-- persistent project rules
-- persistent task state
-- task queue
-- task ownership lock
-- handoff state
-- architecture decisions
-- benchmark records
-- Git-based history
+- Keep static definitions separate from runtime entity state.
+- Keep DefinitionId separate from runtime EntityId.
+- Store client-readable static definitions under Shared/Data.
+- Provide a centralized read-only Data Registry boundary.
+- Avoid God modules and circular dependencies.
+- Keep definitions small, explicit, and data-driven.
+- Do not introduce gameplay systems in this task.
 
 ## Current Phase
+Shared Data Foundation
 
-AI Control Plane
+## Dependency
+IBH-001 — DONE and verified in Roblox Studio.
+
+## Pass Gate
+
+- Shared/Data structure exists.
+- Initial definition categories are established.
+- Registry can resolve known definitions by DefinitionId.
+- Unknown DefinitionId handling is deterministic.
+- Luau validation passes.
+- Existing IBH-001 Studio boot behavior remains intact.
 
 ## Next Phase
-
-Roblox Foundation
+Player Runtime State
