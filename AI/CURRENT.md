@@ -12,9 +12,9 @@ NONE
 
 IDLE
 
-## Started
+## Current Milestone
 
-N/A
+IBH-001 — Roblox Project Foundation — DONE
 
 ## Objective
 
@@ -22,13 +22,19 @@ No implementation task is currently active.
 
 ## Completed
 
-- Repository initialized
-- AI Control Plane initialized
-- Master architecture plan approved
+- Repository initialized.
+- AI Control Plane initialized.
+- Master architecture plan approved.
+- Created the minimum Rojo project foundation with separate Shared, Server, and Client responsibilities.
+- Validated the Rojo build, generated project tree, and Luau source syntax.
+- Verified the project in Roblox Studio with Rojo connected.
+- Verified the server bootstrap message.
+- Verified the client bootstrap message.
+- No startup errors were observed during verification.
 
 ## Next Task
 
-IBH-001 — Roblox Project Foundation
+IBH-002 — Shared Data Foundation
 
 ## Takeover Rules
 
