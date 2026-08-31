@@ -4,10 +4,10 @@
 Idle Blox Hero
 
 ## Development Stage
-AI Control Plane
+Roblox Project Foundation
 
 ## Game Implementation
-NOT STARTED
+IBH-001 SOURCE FOUNDATION IMPLEMENTED
 
 ## Master Plan
 APPROVED
@@ -16,27 +16,27 @@ APPROVED
 001 — APPROVED
 
 ## Current Objective
-Prepare the multi-agent repository workflow.
+Record Roblox Studio verification for IBH-001.
 
 ## Current AI
-NONE
+Codex
 
 ## Active Task
-AI Control Plane
+IBH-001 — Roblox Project Foundation
 
 ## Next Game Task
-IBH-001 — Roblox Project Foundation
+IBH-002 — Shared Data Foundation (blocked pending IBH-001 Studio verification)
 
 ## Verification
 
 Implemented:
-NO
+YES — Rojo configuration and minimal Shared, Server, and Client bootstraps exist.
 
 Tested:
-NO
+YES — Rojo build, JSON parsing, Luau compilation, source-tree checks, and diff check passed.
 
 Studio Verified:
-NO
+NO — Roblox Studio was not used.
 
 Release Ready:
 NO
