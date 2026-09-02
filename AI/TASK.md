@@ -4,7 +4,7 @@
 IBH-002 — Shared Data Foundation
 
 ## Status
-READY
+DONE
 
 ## Goal
 Create the first data-driven definitions and registry foundation for Idle Blox Hero.
@@ -33,6 +33,14 @@ IBH-001 — DONE and verified in Roblox Studio.
 - Unknown DefinitionId handling is deterministic.
 - Luau validation passes.
 - Existing IBH-001 Studio boot behavior remains intact.
+
+## Completion
+
+- One Hero, Enemy, and Rarity definition are available under `Shared/Data`.
+- Definition records and category maps are frozen for read-only access.
+- Contract tests passed 10/10.
+- Rojo build and syntax validation passed.
+- IBH-002 Studio verification remains outstanding in this environment.
 
 ## Next Phase
 Player Runtime State

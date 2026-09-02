@@ -2,23 +2,23 @@
 
 ## Active Task
 
-NONE
+IBH-002 — Shared Data Foundation
 
 ## Active Agent
 
-NONE
+Replit Agent
 
 ## Status
 
-IDLE
+DONE
 
 ## Current Milestone
 
-IBH-001 — Roblox Project Foundation — DONE
+IBH-002 — Shared Data Foundation — DONE
 
 ## Objective
 
-No implementation task is currently active.
+Create the first scalable, data-driven static-definition layer for Idle Blox Hero.
 
 ## Completed
 
@@ -31,10 +31,13 @@ No implementation task is currently active.
 - Verified the server bootstrap message.
 - Verified the client bootstrap message.
 - No startup errors were observed during verification.
+- Added frozen, client-readable static definitions for one hero, one enemy, and one rarity.
+- Added centralized DataRegistry lookups with deterministic unknown DefinitionId errors.
+- Validated the changed Luau sources, registry contract, Rojo build, and diff whitespace.
 
 ## Next Task
 
-IBH-002 — Shared Data Foundation
+IBH-003 — Player Runtime State (blocked until this branch is merged)
 
 ## Takeover Rules
 

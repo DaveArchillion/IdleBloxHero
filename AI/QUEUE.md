@@ -58,15 +58,23 @@ Verification:
 ### IBH-002
 Title: Shared Data Foundation
 
-Status: READY
+Status: DONE
 Priority: P0
-Owner: None
+Owner: Replit Agent
 
 Depends On:
 - IBH-001 — DONE
 
 Goal:
 Create the first data-driven definitions and registry foundation.
+
+Verification:
+- Shared/Data category boundaries created.
+- One Hero, Enemy, and Rarity definition added.
+- DataRegistry known-id and deterministic unknown-id behavior tested.
+- Static definitions and registry frozen for read-only access.
+- Luau syntax validation, Rojo build, and git diff check passed.
+- Roblox Studio verification remains outstanding.
 
 ---
 
